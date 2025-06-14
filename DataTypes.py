@@ -86,8 +86,14 @@
 # print(not False)
 
 
-#Logical and Operator
+# #Logical and Operator
+# a = True
+# b = False
+
+# print("Result is: " , a and b)
+
+#Logical or Operator
 a = True
 b = False
 
-print("Result is: " , a and b)
+print("Result is: " , a or b)

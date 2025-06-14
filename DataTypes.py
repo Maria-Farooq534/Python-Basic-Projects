@@ -69,10 +69,25 @@
 
 #Logical Not Operator
 
-a = 4
-b = 5
+# a = 4
+# b = 5
 
-print(not(a>b))
+# print(not(a>b))
 
-print(not True)
-print(not False)
+# print(not True)
+# print(not False)
+# Logical and Operator
+# a = 4
+# b = 5
+
+# print(not(a>b))
+
+# print(not True)
+# print(not False)
+
+
+#Logical and Operator
+a = True
+b = False
+
+print("Result is: " , a and b)

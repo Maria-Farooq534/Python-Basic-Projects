@@ -64,5 +64,5 @@ print(number)
 number %= 10
 print(number)
 
-number **= 5  #10 to the power 20
+number **= 2  #10 to the power 20
 print(number)

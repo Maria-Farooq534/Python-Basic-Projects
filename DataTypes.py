@@ -45,24 +45,34 @@
 
 #Assignment Operator
 
-number = 10
-# number2 = number + 10
-# print(number2)
-print("We can do the same thing by using += operator")
-number += 10
-print(number)
+# number = 10
+# # number2 = number + 10
+# # print(number2)
+# print("We can do the same thing by using += operator")
+# number += 10
+# print(number)
 
-number -= 10
-print(number)
+# number -= 10
+# print(number)
 
-number *= 10
-print(number)
+# number *= 10
+# print(number)
 
-number /= 10
-print(number)
+# number /= 10
+# print(number)
 
-number %= 10
-print(number)
+# number %= 10
+# print(number)
 
-number **= 2  #10 to the power 20
-print(number)
+# number **= 2  #10 to the power 20
+# print(number)
+
+#Logical Not Operator
+
+a = 4
+b = 5
+
+print(not(a>b))
+
+print(not True)
+print(not False)

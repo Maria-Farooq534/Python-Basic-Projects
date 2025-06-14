@@ -32,12 +32,37 @@
 
 # Relational Operators
 
-a = 5
-b = 6
-print(a==b)
-print("Relational operators always result sin a boolean value, means output may be True or False.")
-print(a!=b)
-print(a>=b)
-print(a<=b)
-print(a<b)
-print(a>b)
+# a = 5
+# b = 6
+# print(a==b)
+# print("Relational operators always result sin a boolean value, means output may be True or False.")
+# print(a!=b)
+# print(a>=b)
+# print(a<=b)
+# print(a<b)
+# print(a>b)
+
+
+#Assignment Operator
+
+number = 10
+# number2 = number + 10
+# print(number2)
+print("We can do the same thing by using += operator")
+number += 10
+print(number)
+
+number -= 10
+print(number)
+
+number *= 10
+print(number)
+
+number /= 10
+print(number)
+
+number %= 10
+print(number)
+
+number **= 5  #10 to the power 20
+print(number)

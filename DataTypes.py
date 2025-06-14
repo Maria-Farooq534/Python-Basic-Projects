@@ -12,6 +12,11 @@ print(type(new))
 
 
 b=4
-d=90
-sum = b+d
-print("The sum of numbers is: ", sum)
+d=2
+print(b + d)
+print(b - d)
+print(b * d)
+print(b / d)
+
+print("The division operator in python always results in floating value.")
+

@@ -12,8 +12,17 @@
 # area = side_of_square * side_of_square
 # print("The area of square is: " , area)
 
-#We can do this by ** operator that means power of
 
-side_of_square = int(input("Enter length of side: "))
-area = side_of_square ** 2 #This means side_of_square's power 2
-print("The area of square is: " , area)
+# #We can do this by ** operator that means power of
+# side_of_square = int(input("Enter length of side: "))
+# area = side_of_square ** 2 #This means side_of_square's power 2
+# print("The area of square is: " , area)
+
+
+#WAP to input 2 floating point numbers and print their average 
+
+num1 = float(input("Enter num 1: "))
+num2 = float(input("Enter Number 2: "))
+
+average = (num1 + num2)  / 2
+print(average)

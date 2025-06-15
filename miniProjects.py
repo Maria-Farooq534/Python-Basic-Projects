@@ -8,7 +8,12 @@
 
 # #Write a program to input side of a square and prints its area.
 
-side_of_square = int(input("Enter length of side: "))
+# side_of_square = int(input("Enter length of side: "))
+# area = side_of_square * side_of_square
+# print("The area of square is: " , area)
 
-area = side_of_square * side_of_square
+#We can do this by ** operator that means power of
+
+side_of_square = int(input("Enter length of side: "))
+area = side_of_square ** 2 #This means side_of_square's power 2
 print("The area of square is: " , area)

@@ -19,10 +19,15 @@
 # print("The area of square is: " , area)
 
 
-#WAP to input 2 floating point numbers and print their average 
+# #WAP to input 2 floating point numbers and print their average 
+# num1 = float(input("Enter num 1: "))
+# num2 = float(input("Enter Number 2: "))
+# average = (num1 + num2)  / 2
+# print(average)
 
-num1 = float(input("Enter num 1: "))
-num2 = float(input("Enter Number 2: "))
+#WAP to input 2 integer numbers a and b. and
+#Print True if a is greater than or equal to b. otherwise print False.
 
-average = (num1 + num2)  / 2
-print(average)
+num1 = int(input("num 1: "))
+num2 = int(input("num 2: "))
+print(num1 >= num2)

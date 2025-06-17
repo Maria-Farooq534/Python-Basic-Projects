@@ -7,12 +7,12 @@
 # print(sum)
 
 
-# Explicit Conversion. manually converting one data type into another.
-a = 2
-b = int(2.5)
-print(type(b))
-sum = a + b
-print(sum)
+# # Explicit Conversion. manually converting one data type into another.
+# a = 2
+# b = int(2.5)
+# print(type(b))
+# sum = a + b
+# print(sum)
 
 
 # #Adding string into float/int

@@ -8,7 +8,7 @@
 
 
 # Explicit Conversion. manually converting one data type into another.
-a = 6
+a = 7
 b = int(2.5)
 print(type(b))
 sum = a + b

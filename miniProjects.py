@@ -63,16 +63,49 @@
     
 #OR
 
-marks = int(input("Enter your marks: "))
-if marks >= 90:
-    grade = "A"
-elif marks >= 80 and marks < 90:
-    grade = "B"
-elif marks >= 70 and marks < 80:
-    grade = "C"
-elif marks <= 70 and marks > 40:
-    grade = "D"
-else:
-    grade = "F"
+# marks = int(input("Enter your marks: "))
+# if marks >= 90:
+#     grade = "A"
+# elif marks >= 80 and marks < 90:
+#     grade = "B"
+# elif marks >= 70 and marks < 80:
+#     grade = "C"
+# elif marks <= 70 and marks > 40:
+#     grade = "D"
+# else:
+#     grade = "F"
        
-print(f"You have grade {grade} for {marks} marks. ")
+# print(f"You have grade {grade} for {marks} marks. ")
+
+
+# #WAP to check if the number entered by the user is even or odd.
+
+# number = int(input("Enter number: "))
+# if number % 2 == 0:
+#     print(f"{number} is even.")
+# else:
+#     print(f"{number} is odd.")
+
+
+
+# #WAP to find the greatest of 3 numbers entered by the user.
+
+# a = int(input("Enter number 1:" ))
+# b = int(input("Enter number 2: "))
+# c = int(input("Enter number 3:" ))
+
+# if a >= b and a >= c:
+#     print(f"{a} is the largest number.")
+# elif b >= a and b >= c:
+#     print(f"{b} is the largest number.")
+# else:
+#     print(f"{c} is the largest number.")
+
+
+#WAP to check if a number is a multiple of 7 or not
+
+number = int(input("Enter a number: "))
+if number % 7 == 0:
+    print("Yes, the number {number} is multiple of 7.")
+else:
+    print("No, the number {number} is not multiple of 7.")

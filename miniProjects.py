@@ -49,16 +49,30 @@
 
 #Grade students based on their marks
 
+# marks = int(input("Enter your marks: "))
+# if marks >= 90:
+#     print("You score Grade A")
+# elif marks >= 80 and marks < 90:
+#     print("You score Grade B")
+# elif marks >= 70 and marks < 80:
+#     print("You score Grade C")
+# elif marks <= 70 and marks > 40:
+#     print("You score Grade D")
+# else:
+#     print("You Fail")
+    
+#OR
+
 marks = int(input("Enter your marks: "))
 if marks >= 90:
-    print("You score Grade A")
+    grade = "A"
 elif marks >= 80 and marks < 90:
-    print("You score Grade B")
+    grade = "B"
 elif marks >= 70 and marks < 80:
-    print("You score Grade C")
+    grade = "C"
 elif marks <= 70 and marks > 40:
-    print("You score Grade D")
+    grade = "D"
 else:
-    print("You Fail")
-    
-    
+    grade = "F"
+       
+print(f"You have grade {grade} for {marks} marks. ")

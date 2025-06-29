@@ -41,8 +41,22 @@
 # print("Length of your name is:" , len(first_name))
 
 
-#WAP to find the occurance of '$' in  a string
+# #WAP to find the occurance of '$' in  a string
 
-earning = "I have earned $ 150$"
-print(f"The occurance of '$' is: {earning.count("$")}") #we have to find no of occurances, so use count method
+# earning = "I have earned $ 150$"
+# print(f"The occurance of '$' is: {earning.count("$")}") #we have to find no of occurances, so use count method
 
+
+#Grade students based on their marks
+
+marks = int(input("Enter your marks: "))
+if marks >= 90:
+    print("You score Grade A")
+elif marks >= 80:
+    print("You score Grade B")
+elif marks >= 70:
+    print("You score Grade C")
+elif marks < 60:
+    print("You score Grade D")
+else:
+    print("You Fail")

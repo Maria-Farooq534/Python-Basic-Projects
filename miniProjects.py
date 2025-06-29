@@ -52,11 +52,13 @@
 marks = int(input("Enter your marks: "))
 if marks >= 90:
     print("You score Grade A")
-elif marks >= 80:
+elif marks >= 80 and marks < 90:
     print("You score Grade B")
-elif marks >= 70:
+elif marks >= 70 and marks < 80:
     print("You score Grade C")
-elif marks < 60:
+elif marks <= 70 and marks > 40:
     print("You score Grade D")
 else:
     print("You Fail")
+    
+    

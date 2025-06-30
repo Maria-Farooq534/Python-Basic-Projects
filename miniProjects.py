@@ -111,7 +111,18 @@
 #     print("No, the number {number} is not multiple of 7.")
 
 
-#WAP to count number of students with grade "A"
-grades = ["C", "D", "A", "A", "B", "B", "A"]
-grades.count("A")
-print(grades)
+# #WAP to count number of students with grade "A"
+# grades = ["C", "D", "A", "A", "B", "B", "A"]
+# grades.count("A")
+# print(grades)
+
+#WAP to check if a list contain a palindrome of elements or not?
+
+number_list = [1,2,3,2,1]
+name_list = ["mam"]
+copy_list = number_list.copy()
+number_list1 = copy_list.reverse()
+if copy_list == number_list:
+    print(f"Yes, {number_list}  is a palindrome")
+else:
+    print(f"No, {number_list} is not a palindrome.")

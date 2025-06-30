@@ -102,10 +102,16 @@
 #     print(f"{c} is the largest number.")
 
 
-#WAP to check if a number is a multiple of 7 or not
+# #WAP to check if a number is a multiple of 7 or not
 
-number = int(input("Enter a number: "))
-if number % 7 == 0:
-    print("Yes, the number {number} is multiple of 7.")
-else:
-    print("No, the number {number} is not multiple of 7.")
+# number = int(input("Enter a number: "))
+# if number % 7 == 0:
+#     print("Yes, the number {number} is multiple of 7.")
+# else:
+#     print("No, the number {number} is not multiple of 7.")
+
+
+#WAP to count number of students with grade "A"
+grades = ["C", "D", "A", "A", "B", "B", "A"]
+grades.count("A")
+print(grades)

@@ -118,11 +118,11 @@
 
 #WAP to check if a list contain a palindrome of elements or not?
 
-number_list = [1,2,3,2,1]
+number_list = [1,2,0,2,1]
 name_list = ["mam"]
 copy_list = number_list.copy()
 number_list1 = copy_list.reverse()
-if copy_list == number_list:
+if number_list == copy_list:
     print(f"Yes, {number_list}  is a palindrome")
 else:
     print(f"No, {number_list} is not a palindrome.")

@@ -55,3 +55,4 @@
 #Replace
 replace_function = "This wil replace with a new substring"
 print(replace_function.replace("wil" , "will"))
+
